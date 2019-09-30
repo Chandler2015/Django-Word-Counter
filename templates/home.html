@@ -1,10 +1,13 @@
-<h1>
-  Word Counter
-  <h1>
-    <form action="{% url 'count' %}">
-      <textarea name="fulltext" cols="40" rows="5"></textarea>
-      <br />
-      <input type="submit" value="Count" />
-    </form>
-  </h1>
-</h1>
+<div style = "text-align:center ">
+<h1>Word Counter</h1>
+
+<a href="{% url 'about'%}">Go to about page</a>
+<form action="{% url 'count' %}">
+  <textarea name="fulltext" cols="40" rows="5"></textarea>
+  <br />
+  <input type="submit" value="Count" />
+</form>
+</div>
+
+
+
