@@ -1,0 +1,11 @@
+<h1>Your text is:</h1>
+"{{fulltext}}"
+<h1>There are {{word_count}} words in your text.</h1>
+<h1>Word Count:</h1>
+
+{%for word,counttotal in word_list%}
+{{word}} - {{counttotal}}
+<br>
+{%endfor%}
+
+
